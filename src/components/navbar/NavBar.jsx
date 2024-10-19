@@ -82,7 +82,6 @@ const NavBar = ({ toggleDarkMode, darkMode }) => {
               !isOpen ? "md:flex" : "md:right-[0%]"
             } md:flex-col md:absolute m-auto md:top-0 md:right-[-100%] md:w-[78%] md:h-screen md:bg-white `}
           >
-            {/* Use a button tag for better accessibility */}
             <button
               onClick={toggleNav}
               className={`text-3xl hidden md:block relative right-0 top-4 container mx-auto`}
