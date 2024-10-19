@@ -3,9 +3,7 @@ import {
   AiFillGithub,
   AiFillInstagram,
 } from "react-icons/ai";
-import {  FaLinkedinIn } from "react-icons/fa";
-
-import { FaPlay } from "react-icons/fa";
+import {  FaLinkedinIn, FaPlay} from "react-icons/fa";
 import { TypeAnimation } from "react-type-animation";
 
 
@@ -15,10 +13,9 @@ const Hero = () => {
     <div
     id="home"
     style={{
-      backgroundImage: 'url("https://images.pexels.com/photos/8217425/pexels-photo-8217425.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1")',
+      backgroundImage: 'url("https://i.pinimg.com/564x/1e/fa/47/1efa4769b420c91c0d38a8523fefcb56.jpg")',
       backgroundSize: 'cover',
       backgroundPosition: 'center', 
-      // height: '100vh' 
     }}
   >
       <div className=" container mx-auto pt-5 h-[750px] md:h-[100vh] md:flex-col-reverse sm:h-[780px]  flex sm:flex-col-reverse sm:pt-0 ">
@@ -42,7 +39,7 @@ const Hero = () => {
           </div>
           <div data-aos="fade-up" className="buttons flex gap-5">
             <a
-              href=""
+              href="/"
                className="bg-black text-[1rem] text-white px-10 py-2 sm:px-8 rounded-[32px] font-bold hover:text-blue-500"
             >
               <span> Apply my card </span>
@@ -62,13 +59,13 @@ const Hero = () => {
                 </a>
               </li>
               <li>
-                <a href="">
+                <a href="/">
                   {" "}
                   <FaLinkedinIn className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125 " />{" "}
                 </a>
               </li>
               <li>
-                <a href="">
+                <a href="/">
                   {" "}
                   <AiFillInstagram className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125  " />{" "}
                 </a>
@@ -81,9 +78,9 @@ const Hero = () => {
             <img
               data-aos="fade-up"
               className=" h-[90%]  w-full object-cover md:h-[95%] md:m-auto sm:m-0"
-              src="https://i.postimg.cc/XvSL2WzG/young-woman-holding-tablet-work.png"
+              src=""
               // src={mine}
-              alt="mine"
+              // alt="mine"
             />
             <div className=" absolute bottom-10 md:bottom-3 right-8 md:right-2">
               <div
@@ -93,7 +90,7 @@ const Hero = () => {
               >
                 <img
                   className=" w-[135px] md:w-[90px] circle-text"
-                  src="https://i.postimg.cc/zXF32bkY/business-growth-money-savings-statistics-1.png"
+                  src="https://ouch-cdn2.icons8.com/DJgWd0-py9dlSKOmAWxUgSY18UFkSvlwOXNQnRaY2Qc/rs:fit:368:701/czM6Ly9pY29uczgu/b3VjaC1wcm9kLmFz/c2V0cy9wbmcvNTI3/LzRlMTljZjgzLWVl/ZDItNDczZC05MjFh/LTFlY2U2YTE3ZjIx/Ny5wbmc.png"
                   alt=""
                 />
                 <FaPlay className=" text-black absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]" />
